@@ -247,8 +247,6 @@ refreshClickStream.subscribe(function() {
 
 위의 방법은 DOM 요소에 영향을 미치는 두 개의 subscriber가 있기 때문에 Seperation of concern이 아니다.
 
-![Mantra](http://i.imgur.com/AIimQ8C.jpg)
-
 따라서 Suggestion을 스트림으로 따로 모델을 해야한다. 여기서 출력된 값은 suggestion 데이터를 포함하는 JSON 객체이다. 3개의 suggestion을 각각 작업 해준다.
 
 ```javascript
